@@ -191,6 +191,22 @@ const raw_AUTHORS = {
 				"href": "https://www.amazon.com/gp/product/B07DHKJ59Z/ref=dbs_a_def_rwt_bibl_vppi_i0"
 			}
 		]
+	},
+	"LangsdorfJulie": {
+		"prefix": "Ms",
+		"first_name": "Julie",
+		"last_name": "Langsdorf",
+		"website": "julielangsdorf.com",
+		"facebook": "https://www.facebook.com/JulieLangsdorfauthor/",
+		"twitter": "https://mobile.twitter.com/JulieLangsdorf",
+		"bio": "Julie Langsdorf's short stories and essays have appeared in publications including Lit Hub and Electric Literature. White Elephant, her debut novel, has been named one of 12 new books to watch for by The New York Times, a book not to miss by USA Today, a highly anticipated novel by The LA Times, a best new book by Southern Living Magazine and Real Simple, and a Library Journal best debut. She has two children and a spoiled goldendoodle, and lives in Washington, D.C.",
+		"email": "julie@julielangsdorf.com",
+		"books": [
+			{
+				"img": "we.jpg",
+				"href": "https://www.amazon.com/White-Elephant-Novel-Julie-Langsdorf/dp/0062857754"
+			}
+		]
 	}
 }
 
