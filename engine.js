@@ -27,7 +27,7 @@ function init() {
 
 	if (author.website == undefined)
 		document.getElementById("website").style.display = "none";
-	document.getElementById("website").href = author.website;
+	document.getElementById("website").href = "https://" + author.website;
 	document.getElementById("website").innerHTML += author.website;
 
 	if (author.facebook == undefined)
@@ -50,6 +50,8 @@ function init() {
 		}
 
 		document.getElementById("bookstore").innerHTML = inner;
+	} else {
+		document.getElementById("bookstore").style.display = "none";
 	}
 	document.title = name;
 }
