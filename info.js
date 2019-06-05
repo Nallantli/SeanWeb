@@ -30,9 +30,31 @@ const raw_AUTHORS = {
 		"prefix": "Ms",
 		"first_name": "Karen",
 		"last_name": "Bender",
+		"website": "karenebender.com",
 		"bio": "Karen E. Bender is the author of the story collection, Refund, which was a Finalist for the National Book Award, shortlisted for The Frank O'Connor International Story Prize and Longlisted for the Story Prize, and The New Order, which was Longlisted for The Story Prize. Her novels are Like Normal People and A Town of Empty Rooms. Her fiction has appeared in magazines including The New Yorker, Granta, Ploughshares, Zoetrope, Guernica, The Harvard Review, and The Yale Review,  has been reprinted in Best American Short Stories and won two Pushcart prizes. She is the fiction editor of Scoundrel Time and is the Visiting Distinguished Professor of Creative Writing at Hollins University.",
 		"email": "karenebender1@gmail.com",
-		"books": []
+		"books": [
+			{
+				"img": "atoer.jpg",
+				"href": "http://www.amazon.com/Town-Empty-Rooms-Karen-Bender/dp/1619020696/ref=sr_1_1?ie=UTF8&qid=1342902335&sr=8-1&keywords=a+town+of+empty+rooms"
+			},
+			{
+				"img": "c.jpg",
+				"href": "http://www.amazon.com/Choice-Contraception-Infertility-Adoption-Parenthood/dp/1596920629/ref=sr_1_1?ie=UTF8&qid=1342902272&sr=8-1&keywords=choice%3A+true+stories+of+birth%2C+contraception"
+			},
+			{
+				"img": "lnp.png",
+				"href": "http://www.amazon.com/Like-Normal-People-Karen-Bender/dp/0618126929/ref=sr_1_1?ie=UTF8&qid=1342902188&sr=8-1&keywords=like+normal+people"
+			},
+			{
+				"img": "rs.jpg",
+				"href": "http://www.amazon.com/Refund-Stories-Karen-Bender/dp/1619024551/ref=sr_1_2?ie=UTF8&qid=1406752261&sr=8-2&keywords=refund%3A+stories"
+			},
+			{
+				"img": "tno.jpg",
+				"href": "https://www.amazon.com/New-Order-Stories-Karen-Bender/dp/1640090991/ref=sr_1_1?ie=UTF8&qid=1522072647&sr=8-1&keywords=new+order+karen+bender"
+			}
+		]
 	},
 	"KarapetkovaHolly": {
 		"prefix": "Dr",
