@@ -43,7 +43,7 @@ function init() {
 	document.getElementById("twitter").href = author.twitter;
 
 	if (author.books.length > 0) {
-		var inner = "<h3>LITERATURE BY <b>" + name.toUpperCase() + "</b></h3>";
+		var inner = "<h3>LITERATURE BY <b>" + author.last_name.toUpperCase() + "</b></h3>";
 
 		for (var i = 0; i < author.books.length; i++) {
 			var isbn = author.books[i];
