@@ -14,6 +14,14 @@ h1, h2 {
 	font-size: 36px;
 }
 
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 15px;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
 b {
 	font-weight: 700;
 }
@@ -35,16 +43,20 @@ h2 {
 }
 
 .book {
+    display: flex;
 	float: left;
 	transition: all .2s ease-in-out; 
 	margin: 15px;
+	box-sizing: border-box;
+}
+
+.book:hover {
+	transform: scale(1.1); 
 }
 
 .booklink {
 	height: 128px;
 }
-
-.book:hover { transform: scale(1.1); }
 
 #profile {
 	width: 100%;
@@ -99,7 +111,7 @@ h2 {
 	margin-bottom: 0px;
 }
 
-#bookstore, #container {
+#bookstore {
 	display: inline-block;
 	background-color: #585896;
 	box-shadow: #0c1630 10px 10px;
@@ -131,9 +143,11 @@ a:hover {
 }
 
 #container {
-	max-width: 640px;
+	max-width: 512px;
 	min-width: 128px;
 	margin: 30px;
+	padding: 0;
+	display: inline-block;
 }
 
 .catblock {
@@ -146,6 +160,7 @@ a:hover {
 	float: left;
 	transition: all .2s ease-in-out; 
 	box-sizing: border-box;
+	border: 1px #1b2d58 solid;
 }
 
 #pagetitle {
@@ -155,7 +170,6 @@ a:hover {
 
 .catblock:hover { 
 	transform: scale(1.1); 
-	position: relative;
 	border: 4px #ffffff solid;
 }
 

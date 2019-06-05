@@ -42,13 +42,15 @@ function init() {
 		document.getElementById("twitter").style.display = "none";
 	document.getElementById("twitter").href = author.twitter;
 
-	var inner = "";
+	if (author.books.length > 0) {
+		var inner = "<h3>LITERATURE BY <b>" + name.toUpperCase() + "</b></h3>";
 
-	for (var i = 0; i < author.books.length; i++) {
-		inner += "<a class=\"book\" href=\"" + author.books[i].href + "\"><img class=\"booklink\" src=\"images/" + getParameterByName("id") + "/" + author.books[i].img + "\"></a>";
+		for (var i = 0; i < author.books.length; i++) {
+			inner += "<a class=\"book\" href=\"" + author.books[i].href + "\"><img class=\"booklink\" src=\"images/" + getParameterByName("id") + "/" + author.books[i].img + "\"></a>";
+		}
+
+		document.getElementById("bookstore").innerHTML = inner;
 	}
-
-	document.getElementById("bookstore").innerHTML = inner;
 	document.title = name;
 }
 
