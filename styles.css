@@ -84,6 +84,11 @@ h2 {
 	color: var(--hover-color);
 }
 
+#front > img {
+	min-height: 100%;
+	object-fit: cover;
+}
+
 .book {
     display: flex;
 	float: left;
