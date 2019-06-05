@@ -1,5 +1,5 @@
 const raw_AUTHORS = {
-	"SeanMurphy": {
+	"MurphySean": {
 		"prefix": "Mr",
 		"title": "Executive Director",
 		"organization": "1455",
@@ -26,7 +26,7 @@ const raw_AUTHORS = {
 			}
 		]
 	},
-	"KarenBender": {
+	"BenderKaren": {
 		"prefix": "Ms",
 		"first_name": "Karen",
 		"last_name": "Bender",
@@ -34,7 +34,7 @@ const raw_AUTHORS = {
 		"email": "karenebender1@gmail.com",
 		"books": []
 	},
-	"HollyKarapetkova": {
+	"KarapetkovaHolly": {
 		"prefix": "Dr",
 		"title": "Associate Professor",
 		"organization": "Marymount University",
@@ -47,7 +47,7 @@ const raw_AUTHORS = {
 		"twitter": "https://twitter.com/HollyKarapetkov",
 		"books": []
 	},
-	"DallasHudgens": {
+	"HudgensDallas": {
 		"prefix": "Mr",
 		"title": "Publisher",
 		"organization": "Relegation Books",
@@ -70,7 +70,7 @@ const raw_AUTHORS = {
 			}
 		]
 	},
-	"RobertAnthonySiegel": {
+	"SiegelRobertAnthony": {
 		"prefix": "Mr",
 		"first_name": "Robert Anthony",
 		"last_name": "Siegel",
@@ -95,7 +95,7 @@ const raw_AUTHORS = {
 			}
 		]
 	},
-	"JustinKerns": {
+	"KernsJustin": {
 		"prefix": "Mr",
 		"first_name": "Justin",
 		"last_name": "Kerns",
@@ -108,7 +108,7 @@ const raw_AUTHORS = {
 		"twitter": "www.twitter.com/visitorscenter",
 		"books": []
 	},
-	"ClaireKinnane": {
+	"KinnaneClaire": {
 		"prefix": "Ms",
 		"first_name": "Claire",
 		"last_name": "Kinnane",
@@ -119,7 +119,7 @@ const raw_AUTHORS = {
 		"facebook": "https://www.facebook.com/claire.kinnane.3",
 		"books": []
 	},
-	"GreggWilhelm": {
+	"WilhelmGregg": {
 		"prefix": "Mr",
 		"first_name": "Gregg",
 		"last_name": "Wilhelm",
@@ -129,7 +129,7 @@ const raw_AUTHORS = {
 		"email": "greggutmfa@gmail.com",
 		"books": []
 	},
-	"EAAymar": {
+	"AymarEA": {
 		"prefix": "Mr",
 		"first_name": "E.A.",
 		"last_name": "Aymar",
@@ -146,7 +146,7 @@ const raw_AUTHORS = {
 			}
 		]
 	},
-	"DavidSwinson": {
+	"SwinsonDavid": {
 		"prefix": "Mr",
 		"first_name": "David",
 		"last_name": "Swinson",
