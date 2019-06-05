@@ -1,1 +1,1 @@
-https://agilulfulus.github.io/SeanWeb/
+https://agilulfulus.github.io/SeanWeb/index.html
