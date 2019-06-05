@@ -1,0 +1,180 @@
+body {
+	background-color: #1b2d58;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	font-family: 'Karla', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+}
+
+b {
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+#back_button {
+	font-size: 36px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	color: #1b2d58;
+}
+
+#back_button:hover {
+	color: #585896;
+}
+
+.book {
+	float: left;
+	transition: all .2s ease-in-out; 
+	margin: 15px;
+}
+
+.booklink {
+	height: 128px;
+}
+
+.book:hover { transform: scale(1.1); }
+
+#profile {
+	width: 100%;
+}
+
+#front {
+	margin: 0;
+	overflow: hidden;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	float: left;
+	object-fit: cover;
+}
+
+#back {
+	color: #ffffff;
+	background-color: #1b2d58;
+	margin: 0;
+	float: left;
+	overflow: auto;
+}
+
+#front {
+	height: 100vh;
+	width: 50%;
+}
+
+#back {
+	height: 100vh;
+	width: 50%;
+}
+
+#name, #bio, #links, #bookstore, #titleorg {
+	margin: 30px;
+}
+
+#titleorg {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+#name {
+	margin-bottom: 0px;
+}
+
+#contact {
+	font-size: 14px !important;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#bookstore, #container {
+	display: inline-block;
+	background-color: #585896;
+	box-shadow: #0c1630 10px 10px;
+}
+
+#links {
+	font-size: 36px;
+}
+
+
+#contact {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #9999ff;	
+}
+
+#backcont {
+	background-color: #1b2d58;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+	max-width: 640px;
+	min-width: 128px;
+	margin: 30px;
+}
+
+.catblock {
+	height: 128px;
+	width: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	overflow: hidden;
+	float: left;
+	transition: all .2s ease-in-out; 
+	box-sizing: border-box;
+}
+
+#pagetitle {
+	color: #ffffff;
+	margin-left: 30px;
+}
+
+.catblock:hover { 
+	transform: scale(1.1); 
+	position: relative;
+	border: 4px #ffffff solid;
+}
+
+.catblock > img {
+	height: auto;
+	max-width: 100%;
+	flex-shrink: 0;
+}
+
+@media only screen and (max-width: 800px) {
+	#front {
+		height: 50vh;
+		width: 100vw;
+	}
+	
+	#back {
+		min-height: 50vh;
+		width: 100vw;
+		overflow: visible;
+	}
+
+}
