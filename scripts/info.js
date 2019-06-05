@@ -134,8 +134,6 @@ const raw_AUTHORS = {
 		"prefix": "Ms",
 		"first_name": "Claire",
 		"last_name": "Kinnane",
-		"organization": "Winchester-Frederick County Convention and Visitors Bureau",
-		"title": "Executive Director",
 		"bio": "Claire Kinnane is a poet and writer from Washington D.C. She teaches Creative Writing with HEARD, an arts and life skills program that serves the homeless, those transitioning from homelessness, incarcerated men and women, domestic violence survivors, and immigrants/refugees.",
 		"email": "ClaireKinnane16@gmail.com",
 		"facebook": "https://www.facebook.com/claire.kinnane.3",
