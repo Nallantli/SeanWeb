@@ -46,7 +46,10 @@ function init() {
 		var inner = "<h3>LITERATURE BY <b>" + name.toUpperCase() + "</b></h3>";
 
 		for (var i = 0; i < author.books.length; i++) {
-			inner += "<a class=\"book\" href=\"" + author.books[i].href + "\"><img class=\"booklink\" src=\"images/" + getParameterByName("id") + "/" + author.books[i].img + "\"></a>";
+			var isbn = author.books[i];
+			var isbn1 = isbn.substr(isbn.length - 3);
+			var isbn2 = isbn.substr(isbn.length - 6).substr(0, 3);
+			inner += "<a class=\"book\" href=\"https://www.winchesterbookgallery.com/book/" + isbn + "\"><img class=\"booklink\" src=\"https://images.booksense.com/images/" + isbn1 + "/" + isbn2 + "/" + isbn + ".jpg\"></a>";
 		}
 
 		document.getElementById("bookstore").innerHTML = inner;
