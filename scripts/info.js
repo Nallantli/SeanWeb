@@ -122,7 +122,7 @@ const raw_AUTHORS = {
 		"first_name": "Justin",
 		"last_name": "Kerns",
 		"organization": "Winchester-Frederick County Convention and Visitors Bureau",
-		"title":"Executive Director",
+		"title": "Executive Director",
 		"bio": "Virginia native Justin Kerns is a playful traveler, having visited 49 of the 50 states and number of European and Asian countries.  After growing up on a farm in Rustburg, Virginia and spending his high school years in the Manassas area, he spent time living in North Dakota, Colorado, Massachusetts and Southern California before returning to his home state of Virginia in 2013.<br><br>He earned a Bachelor of Science with Honors and Master of Science with Distinction in Tourism Management from California State University, Northridge.  After graduation he formed Sustainable Tourism Management, a research-based tourism development consulting company which helped a number of Southern California cities develop their initial tourism strategy and infrastructure.  He has also worked for AmericanTours International (ATI) and on the product development team at Uniworld Boutique River Cruises.<br><br>Justin found his true calling in the DMO/CVB world upon returning to Virginia.  He launched the newly formed Tourism Office in Mecklenburg County, Virginia and worked creatively with a very limited budget. He also assisted in creating several regional initiatives that have been the model for numerous other trails in the state and region.<br><br>He joined the Winchester-Frederick County CVB as Executive Director in 2015 and has led the organization through a rebranding, new ad campaign, and data-driven marketing efforts. Regionally, he is helping lead an exciting 11-locality collaborative effort to rebrand and promote Virginia’s Shenandoah Valley, and was co-creator of the Shenandoah Spirits Trail. He currently sits on the board of the Southeast Tourism Society and is the state coordinator for their annual legislative education efforts in Washington D.C.<br><br>He lives in Frederick County with his wife and two young children.",
 		"email": "justin.kerns@gmail.com",
 		"facebook": "https://www.Facebook.com/VisitWinchesterVA",
@@ -135,7 +135,7 @@ const raw_AUTHORS = {
 		"first_name": "Claire",
 		"last_name": "Kinnane",
 		"organization": "Winchester-Frederick County Convention and Visitors Bureau",
-		"title":"Executive Director",
+		"title": "Executive Director",
 		"bio": "Claire Kinnane is a poet and writer from Washington D.C. She teaches Creative Writing with HEARD, an arts and life skills program that serves the homeless, those transitioning from homelessness, incarcerated men and women, domestic violence survivors, and immigrants/refugees.",
 		"email": "ClaireKinnane16@gmail.com",
 		"facebook": "https://www.facebook.com/claire.kinnane.3",
@@ -146,7 +146,7 @@ const raw_AUTHORS = {
 		"first_name": "Gregg",
 		"last_name": "Wilhelm",
 		"organization": "George Mason University",
-		"title":"Director of Creative Writing",
+		"title": "Director of Creative Writing",
 		"bio": "Gregg Wilhelm is Director of Creative Writing at George Mason University. His expertise covers book publishing, arts administration, and higher education. He started his career at Johns Hopkins University Press, launched three imprints including one with a major independent bookseller, and founded nonprofit literary arts organization CityLit Project. He's held adjunct and leadership positions at several institutions, while earning an MFA from the University of Tampa. Prior to joining Mason, Gregg served as Director of Marketing and Enrollment Development at the Maryland Institute College of Art.",
 		"email": "greggutmfa@gmail.com",
 		"books": []
@@ -211,6 +211,6 @@ const raw_AUTHORS = {
 }
 
 const AUTHORS = {};
-Object.keys(raw_AUTHORS).sort().forEach(function(key) {
-  AUTHORS[key] = raw_AUTHORS[key];
+Object.keys(raw_AUTHORS).sort().forEach(function (key) {
+	AUTHORS[key] = raw_AUTHORS[key];
 });
