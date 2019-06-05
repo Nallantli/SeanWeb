@@ -145,6 +145,30 @@ const raw_AUTHORS = {
 				"img": "tu.jpg"
 			}
 		]
+	},
+	"DavidSwinson": {
+		"prefix": "Mr",
+		"first_name": "David",
+		"last_name": "Swinson",
+		"website": "www.davidaswinson.com",
+		"facebook": "https://www.facebook.com/DavidSwinsonAuthor/?ref=aymt_homepage_panel&eid=ARB91RC-6yskP0VQIWL0txzqt8Wd1FCSD_N_X5-FrhcOocAnhs1K39FeVcWuQEnOIpbji4z0WRWjRRyW",
+		"twitter": "https://twitter.com/casejackets",
+		"bio": "David Swinson is a retired police detective, having served with the Metropolitan Police Department in Washington, DC. Prior to joining the police department, Swinson was a record store owner in Seal Beach, California; a punk rock/alternative music concert promoter in Long Beach, California, and an independent film producer in Los Angeles. Swinson is the author of THE SECOND GIRL (One of the New York Times Best Crime Fiction Books of 2016), CRIME SONG, and TRIGGER, on Mulholland Books/Little Brown and Company. He lives in Northern Virginia with his wife, daughter, bull mastiff, and Staffordshire terrier.",
+		"email": "davidswinson@davidaswinson.com",
+		"books": [
+			{
+				"img": "tsg.jpg",
+				"href": "https://www.amazon.com/Second-Girl-Frank-Marr/dp/0316264199"
+			},
+			{
+				"img": "cs.jpg",
+				"href": "https://www.amazon.com/gp/product/B01LL8C0DY/ref=dbs_a_def_rwt_bibl_vppi_i2"
+			},
+			{
+				"img": "t.jpg",
+				"href": "https://www.amazon.com/gp/product/B07DHKJ59Z/ref=dbs_a_def_rwt_bibl_vppi_i0"
+			}
+		]
 	}
 }
 
