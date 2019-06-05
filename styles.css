@@ -49,6 +49,13 @@ body {
     to   { opacity: 1; }
 }
 
+#main_info {
+	margin: 0;
+	display: inline-block;
+	width: 100%;
+	background-color: var(--main-fg-color);
+	color: var(--main-bg-color);
+}
 
 h1, h2 {
 	font-family: 'Lato', sans-serif;
@@ -175,7 +182,7 @@ h2 {
 
 a {
 	text-decoration: none;
-	color: var(--main-fg-color);
+	color: inherit
 }
 
 a:hover {
