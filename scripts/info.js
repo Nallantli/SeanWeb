@@ -43,7 +43,9 @@ const raw_AUTHORS = {
 		"facebook": "https://www.facebook.com/holly.karapetkova",
 		"linkedin": "https://www.linkedin.com/in/holly-karapetkova-432b6724/",
 		"twitter": "https://twitter.com/HollyKarapetkov",
-		"books": []
+		"books": [
+			"9780931846953"
+		]
 	},
 	"HudgensDallas": {
 		"prefix": "Mr",
@@ -173,18 +175,6 @@ const raw_AUTHORS = {
 			"9785519301671"
 		]
 	},
-	"HuddyJohn": {
-		"prefix": "Mr",
-		"first_name": "John",
-		"last_name": "Huddy",
-		"organization" : "Handley Regional Library System",
-		"title": "Director",
-		"email": "jhuddy@handleyregional.org",
-		"bio": "John Huddy is the Director of Handley Regional Library System - a system of 3 libraries serving over 120,000 residents in the Shenandoah Valley near Northern Virginia.<br><br>He has over 21 years of experience in progressive librarian leadership specializing in the role of technology and the future of how library systems should meet the needs of their patrons.  Huddy began his library career in technology and intelligence and moved into an analytics role for a government sponsor.  He served as a public librarian for Fairfax County Public Library and transitioned into a branch manager at Loudon County Public Library where launched Ashburn Library to the community in 2003.  Shortly after, Huddy was named Deputy Director of Loudon County Public Library and branch manager for Gum Springs Library.<br><br>Since 2013, he has served as the Director of Handley Regional Library System where he has led the system through a major rebranding, new technology and digital initial initiatives, improved collections, enhanced community relations, and better ways to connect residents to information and entertainment to meet their needs.",
-		"books": [
-			"9780345514417",
-		]
-	},
 	"KapsidelisThomas": {
 		"prefix": "Mr",
 		"first_name": "Thomas",
@@ -223,6 +213,132 @@ const raw_AUTHORS = {
 		"bio": "Angie Kim is the debut author of the national bestseller Miracle Creek, a literary courtroom drama that has been named a LibraryReads Selection, an IndieNext pick, an Amazon Best Book of the Month, a Book of the Month Club selection, and Apple Books’ Top Ten Debuts of 2019, as well as named a best book by Time, People, Entertainment Weekly, Elle, and Real Simple. Her writing has appeared in Vogue, The New York Times, The Washington Post, Glamour, Salon, and Slate. She moved from Seoul, Korea, to Baltimore as a preteen, and attended Stanford University and Harvard Law School, where she was an editor of the Harvard Law Review, then practiced as a trial lawyer at Williams & Connolly. She lives in Northern Virginia with her husband and three sons.",
 		"books": [
 			"9781250251305",
+		]
+	},
+	"HomesteadMelissa": {
+		"prefix": "Dr",
+		"first_name": "Melissa",
+		"last_name": "Homestead",
+		"organization" : "University of Nebraska-Lincoln",
+		"title" : "Professor of English",
+		"email": "mhomestead2@unl.edu",
+		"bio": "Melissa Homestead is Professor of English at the University of Nebraska-Lincoln, where my research and teaching focuses on American women's writing. She is Associate Editor of The Complete Letters of Willa Cather: A Digital Edition, and in August she will become Director of the Cather Project in the UNL English Department. Her book on Willa Cather's relationship with her partner of thirty-eight years, Edith Lewis, is under contract with Oxford University Press.",
+		"books": [
+			"9780521154758",
+		]
+	},
+	"DavisMatthew": {
+		"prefix": "Mr",
+		"first_name": "Davis",
+		"last_name": "Matthew",
+		"organization" : "Alan Cheuse International Writers Center at George Mason University",
+		"title" : "Founding Director",
+		"email": "matthew.davis.j@gmail.com",
+		"bio": "Matthew Davis is the founding director of the Alan Cheuse International Writers Center at George Mason University. He's been an Eric and Wendy Schmidt Fellow at New America, a Fellow at the Black Mountain Institute at UNLV, and a Fulbright Fellow to Syria and Jordan. His work has appeared in the New Yorker, the Atlantic, and Guernica, among other places. He is the author of When Things Get Dark: A Mongolian Winter's Tale.",
+		"books": [
+			"9780312607739",
+		]
+	},
+	"SilvermanJacob": {
+		"prefix": "Mr",
+		"first_name": "Jacob",
+		"last_name": "Silverman",
+		"organization" : "Self-employed",
+		"title" : "Freelance journalist",
+		"email": "jacobsilverman@gmail.com",
+		"twitter" : "www.twitter.com/silvermanjacob",
+		"bio": "Jacob Silverman is the author of \"Terms of Service: Social Media and the Price of Constant Connection\" (HarperCollins, 2015). A contributing editor for The Baffler, his work has appeared in the Los Angeles Times, New York Times, The New Republic, and many other publications. He lives, like too many other writers, in Brooklyn.",
+		"books": [
+			"9780062282484",
+		]
+	},/*
+	"KrugNora": {
+		"prefix": "Ms",
+		"first_name": "Nora",
+		"last_name": "Krug",
+		"organization" : "The Washington Post",
+		"title" : "Editor",
+		"email": "krugnora@gmail.com",
+		"facebook" : "https://www.facebook.com/nora.krug.5",
+		"twitter" : "https://twitter.com/nbkrug",
+		"bio": "Nora Krug is an editor and writer at Book World, the Washington Post. She focuses on author profiles, children's books, memoirs, fiction and parenting books. Before joining The Post, she was an editor at the New York Times, Architectural Digest and the publisher Little, Brown.",
+		"books": [
+			"9781476796635",
+		]
+	},*/
+	"BettmannRobert": {
+		"prefix": "Mr",
+		"first_name": "Robert",
+		"last_name": "Bettmann",
+		"organization" : "Day Eight",
+		"title" : "Editor",
+		"email": "Robert@DayEight.org",
+		"facebook" : "https://www.facebook.com/DayEightOrg/",
+		"linkedin" : "https://www.linkedin.com/in/robertbettmann/",
+		"twitter" : "https://twitter.com/rbett",
+		"bio": "Robert Bettmann is an arts writer and editor, and founder of the publisher Day Eight. For Day Eight he recently edited books of poetry by John Johnson, Susan Meehan, and Kevin Wiggins. As an arts journalist he covers dance, visual arts, jewish arts, and arts policy. He is author of Somatic Ecology: Somatics, Nature, Humanity and the Human Body (2009) and has taught arts writing for non-profits and universities including Washington Project for the Arts and James Madison University. He’s also director of an Arts Writing Fellowship project, funded by the National Endowment for the Arts, that works to increase quality review of the arts and humanities.",
+		"books": [
+			"9783639150254",
+		]
+	},
+	"PatrickBethanne": {
+		"prefix": "Ms",
+		"first_name": "Bethanne",
+		"last_name": "Patrick",
+		"email": "bethanne.patrick@gmail.com",
+		"facebook" : "https://www.facebook.com/bethannepatrick",
+		"twitter" : "https://twitter.com/TheBookMaven",
+		"bio": "Bethanne Patrick is a writer, author, and critic whose column about hot reads appears monthly in The Washington Post. Her books \"An Uncommon History of Common Things\" (with John Thompson) and \"An Uncommon History of Common Courtesy\" were released by National Geographic in 2009 and 2011 respectively, and her anthology \"The Books that Changed My Life\" by ReganArts in 2016. She is currently working on a memoir for Counterpoint Press.",
+		"books": [
+			"9781426204203",
+			"9781426208133",
+			"9781941393659"
+		]
+	},
+	"KaldasPauline": {
+		"prefix": "Dr",
+		"first_name": "Pauline",
+		"last_name": "Kaldas",
+		"email": "pkaldas@hollins.edu",
+		"organization": "Hollins University",
+		"title" : "Professor of English and Creative Writing",
+		"facebook" : "https://www.facebook.com/Pauline-Kaldas-1159665700811975/",
+		"bio": "Pauline Kaldas is the author of Looking Both Ways, a collection of essays, The Time Between Places, a collection of short stories, Letters from Cairo, a travel memoir, and Egyptian Compass, a collection of poetry.  She also co-edited Dinarzad’s Children: An Anthology of Contemporary Arab American Fiction.  She was awarded a fellowship in fiction from the Virginia Commission of the Arts and has been in residency at the MacDowell Colony and the Virginia Center for the Arts.  She is Professor of English and Creative Writing at Hollins University.",
+		"books": [
+			"9780815608547",
+			"9781933456256",
+			"9781557289124",
+			"9781557289247"
+		]
+	},
+	"AndersonTJ": {
+		"prefix": "Dr",
+		"first_name": "T.J.",
+		"last_name": "Anderson",
+		"email": "tanderson@hollins.edu",
+		"organization": "Hollins University",
+		"title" : "Professor of English and Creative Writing",
+		"website" : "https://www.tjandersonpoet.com/",
+		"bio": "Born in Guthrie, Oklahoma, poet and musician T.J. Anderson III is the author of Devonte Travels the Sorry Route (Omnidawn Press, 2019), Cairo Workbook (Willow Books, 2014), River to Cross (The Backwaters Press, 2009), Notes to Make the Sound Come Right: Four Innovators of Jazz Poetry (University of Arkansas Press, 2004), Blood Octave (Flat Five Recordings, 2006), and the chapbook At Last Round Up (lift books, 1996). A former Fulbright Scholar at Cairo University, he lives with his family in Roanoke, Virginia, and teaches at Hollins University.",
+		"books": [
+			"9781632430670",
+			"9781935218050",
+			"9781557287694"
+		]
+	},
+	"WesleyZia": {
+		"prefix": "Ms",
+		"first_name": "Zia",
+		"last_name": "Wesley",
+		"email": "ziziw73@gmail.com",
+		"organization": "Wanderlust Press",
+		"title" : "President",
+		"twitter" : "https://www.twitter.com/ziawesley",
+		"bio": "Zia Wesley is the author of nine books of non-fiction in the genre of health and beauty, two historical novels; The Stolen Girl and The French Sultana, and the memoir, Notes From A Broad: my uncensored year in Italy.",
+		"books": [
+			"9781500642556",
+			"9780692178539",
+			"9781499642209"
 		]
 	}
 }
