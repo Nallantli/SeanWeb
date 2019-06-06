@@ -311,7 +311,7 @@ const raw_AUTHORS = {
 			"9781557289247"
 		]
 	},
-	"AndersonTJ": {
+	"AndersonTj": {
 		"prefix": "Dr",
 		"first_name": "T.J.",
 		"last_name": "Anderson",

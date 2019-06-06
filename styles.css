@@ -220,7 +220,7 @@ a:hover {
 
 #pagetitle {
 	color: var(--main-fg-color);
-	margin-left: 30px;
+	margin: 30px;
 }
 
 .catblock > div {
