@@ -305,7 +305,6 @@ a:hover {
 	max-height: 50px;
 	display: flex;
 	float: left;
-	filter: invert(100%);
 }
 
 #navbar, #navlogo {
