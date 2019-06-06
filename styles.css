@@ -49,6 +49,36 @@ body {
     to   { opacity: 1; }
 }
 
+#libtitle {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	background: var(--main-bg-color);
+}
+
+#scenery {
+	display: block;
+	position: fixed;
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
+	height: 100%;
+	z-index: -1;
+}
+
+#description {
+	background: var(--main-bg-color);
+	margin: 30px;
+	padding: 30px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logo {
+	margin: 60px;
+	max-width: 500px;
+	filter: invert(100%)
+}
+
 #main_info {
 	margin: 0;
 	display: inline-block;
@@ -135,12 +165,33 @@ h2 {
 	overflow: auto;
 }
 
-#front {
+#front_main {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	float: left;
+	background: none;
+}
+
+#catalog {
+	clear: left;
+}
+
+#back_main {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	background: none;
+	left: 50%;
+	float: left;
+}
+
+#front, #front_main {
 	height: 100vh;
 	width: 50%;
 }
 
-#back {
+#back, #back_main {
 	height: 100vh;
 	width: 50%;
 }
@@ -218,11 +269,6 @@ a:hover {
 	border: 1px var(--main-bg-color) solid;
 }
 
-#pagetitle {
-	color: var(--main-fg-color);
-	margin: 30px;
-}
-
 .catblock > div {
 	display: none;
 	height: 150px;
@@ -271,7 +317,19 @@ a:hover {
 		overflow: visible;
 	}
 
-	#bio {
+	#front_main {
+		height: 25%;
+		width: 100%;
+	}
+
+	#back_main {
+		top: 25%;
+		left: 0;
+		width: 100%;
+		height: 75%;
+	}
+
+	#bio, #description {
 		font-size: 22px !important;
 	}
 
