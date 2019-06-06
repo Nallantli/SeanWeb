@@ -340,6 +340,56 @@ const raw_AUTHORS = {
 			"9780692178539",
 			"9781499642209"
 		]
+	},
+	"JaffeHarry": {
+		"prefix": "Mr",
+		"first_name": "Harry",
+		"last_name": "Jaffe",
+		"email": "harryjaffe@gmail.com",
+		"website" : "harryjaffe.com",
+		"twitter" : "https://www.twitter.com/harryjaffe",
+		"bio": "Harry Jaffe is a legend among journalists and writers covering the city of Washington, DC — its politics, its crime, its heroes and villains. Beyond Washington, his work has been published in Playboy, Yahoo News, Men’s Health, Harper’s, Esquire and newspapers from the San Francisco Examiner to the Philadelphia Inquirer. He’s appeared in documentary films, TV and radio across the country and Europe.<br><br>Jaffe started reporting for the Rutland (VT) Herald in 1974. By 1977 he was a statewide reporting covering politics, nuclear power and the Legislature.<br><br>Vermont Senator Patrick Leahy asked Jaffe to become his press secretary in 1978. Moving to DC, he helped get Leahy’s message to state and local media while preparing the senator for reelection. He resumed reporting with States News Service, writing about Congress and the federal government for newspapers in the Bay Area in 1980. He learned the craft of long form journalism at Regardies and Washingtonian magazines. Jaffe found his niche covering the local Washington region, honing in on politics, true crime and media. As Washingtonian’s National Editor from 1990 on, he won many awards for investigative feature writing. His expose of toxic waste pits from World War I in DC’s Spring Valley triggered a $300-million ongoing cleanup.<br><br>With WRC-TV reporter Tom Sherwood, Jaffe co-authored Dream City: Race, Power and the Decline of Washington, DC, the definitive account of Washington’s emergence as a world class city, with Marion Barry as the main character. The New York Times named it one of the best political books of 1994. Published as an e-book in 2014, Dream City rose to the top of Amazon’s local history list. Universities across the U.S. have adopted Dream City as a text in Urban Studies courses.<br><br>Jaffe went on to collaborate with school reformer Michelle Rhee on Radical, her memoir and take on education in America. He followed that by collaborating with former Congresswoman Gabrielle Giffords and Michael Kelly, her astronaut husband, in their book ENOUGH; Our Fight to Keep America Safe from Gun Violence.<br><br>As an educator, Jaffe started lecturing at Georgetown University in 1984 and became an assistant professor of media studies at American University. In 1986 he taught journalism and media at the American University in Rome. He’s lectured at the University of Maryland, Towson University, George Washington University and Trinity College.<br><br>In addition to contributing to Washingtonian and other publications, Jaffe is at work on a number of collaborations and books, as well as treatments for dramatic productions.",
+		"books": [
+			"9780786755936",
+			"9781682450178"
+		]
+	},
+	"NajiAhmed": {
+		"prefix": "Mr",
+		"first_name": "Ahmed",
+		"last_name": "Naji",
+		"bio": "Ahmed Naji is an Egyptian novelist and journalist born in Mansoura in 1985. He is the author of three books, Rogers (2007), Seven Lessons Learned from Ahmed Makky (2009), and The Use of Life (2014), as well as numerous blogs and other articles. He was also a journalist for Akhbar al-Adab, a state-funded literary magazine, and frequently contributed to other newspapers and websites including Al-Modon and Al-Masry Al-Youm. Naji has been a vocal critic of official corruption under the rule of Egyptian President Abdel Fattah al-Sisi.<br><br>Egypt’s literary and political communities have expressed widespread support for Naji. Seven members of the committee that wrote the Egyptian Constitution published a statement in February 2016 condemning Naji’s sentencing as unconstitutional, arguing that the conviction contravenes Article 67 of the Constitution. Over 500 Egyptian writers and artists also signed a statement in February 2016 in solidarity with Naji, criticizing the government’s \"multi-armed attack on a number of writers and journalists because of their opinions\" and the \"terrible and terrifying path taken by the regime.\"",
+		"books": [
+			"9781477314807"
+		]
+	},
+	"DeneviTimothy": {
+		"prefix": "Mr",
+		"first_name": "Timothy",
+		"last_name": "Denevi",
+		"website": "timdenevi.com",
+		"email" : "tdenevi@gmu.edu",
+		"title": "Assistant Professor",
+		"organization" : "George Mason University",
+		"bio": "Timothy Denevi is the author of Freak Kingdom: Hunter S. Thompson’s Manic Ten-Year Crusade Against American Fascism (PublicAffairs, 2018) and Hyper: A Personal History of ADHD (Simon & Schuster, 2014). His essays on politics, sport, and religion have recently appeared in The Paris Review, New York Magazine, Salon, The Normal School, and Literary Hub. He received his MFA in nonfiction from the University of Iowa, and he’s been awarded fellowships by the MacDowell Colony and the Virginia Center for the Creative Arts. Tim is an assistant professor at George Mason University and lives with his family near Washington, DC.",
+		"books": [
+			"9781541767942",
+			"9781476702582"
+		]
+	},
+	"FriedmanJane": {
+		"prefix": "Ms",
+		"first_name": "Jane",
+		"last_name": "Friedman",
+		"website": "janefriedman.com",
+		"facebook" : "https://www.facebook.com/janefriedman",
+		"twitter" : "https://twitter.com/janefriedman",
+		"linkedin" : "https://www.linkedin.com/in/janefriedman",
+		"bio": "Jane Friedman spent 15 years working inside the traditional publishing industry and is the former publisher of Writer’s Digest. In addition to being a columnist with Publishers Weekly and an instructor with the Authors Guild, she is a professor with The Great Courses on the topic of how to get traditionally published.<br><br>Her most recent book is The Business of Being a Writer (The University of Chicago Press, 2018), a comprehensive guide on how to make a living as a writer. She has been a full-time freelancer and publishing consultant since 2014, and maintains an award-winning blog for writers at JaneFriedman.com.<br><br>Her speaking engagements have taken her around the world to BookExo America, Frankfurt Book Fair, the Dubai Knowledge Summit, SXSW, and hundreds of writing conferences and creative writing programs. Her expertise on the publishing industry and the future of authorship has been featured by NPR’s Morning Edition and All Things Considered, PBS, The Washington Post, and the National Press Club. She has also served on grant panels for the National Endowment for the Arts.",
+		"books": [
+			"9780226393162",
+			"9780986312618"
+		]
 	}
 }
 
