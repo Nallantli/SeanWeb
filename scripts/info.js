@@ -160,6 +160,7 @@ const raw_AUTHORS = {
 		"prefix": "Mr",
 		"first_name": "Louis",
 		"last_name": "Bayard",
+		"website": "louisbayard.com",
 		"facebook": "https://www.facebook.com/Louis-Bayard-the-Author-152156250360/",
 		"twitter": "https://mobile.twitter.com/LouisBayard",
 		"email": "dratnip@gmail.com",
