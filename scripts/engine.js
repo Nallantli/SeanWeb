@@ -49,7 +49,7 @@ function init() {
 			var isbn = author.books[i];
 			var isbn1 = isbn.substr(isbn.length - 3);
 			var isbn2 = isbn.substr(isbn.length - 6).substr(0, 3);
-			inner += "<a class=\"book\" href=\"https://www.winchesterbookgallery.com/book/" + isbn + "\"><img class=\"booklink\" src=\"https://images.booksense.com/images/" + isbn1 + "/" + isbn2 + "/" + isbn + ".jpg\"></a>";
+			inner += "<a class=\"book\" target=\"_blank\" href=\"https://www.winchesterbookgallery.com/book/" + isbn + "\"><img class=\"booklink\" src=\"https://images.booksense.com/images/" + isbn1 + "/" + isbn2 + "/" + isbn + ".jpg\"></a>";
 		}
 
 		document.getElementById("bookstore").innerHTML = inner;
