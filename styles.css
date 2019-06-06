@@ -19,11 +19,11 @@ body {
 	font-size: 14px;
 	font-family: 'Karla', sans-serif;
 
-	-webkit-animation: fadein 0.25s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 0.25s; /* Firefox < 16 */
-        -ms-animation: fadein 0.25s; /* Internet Explorer */
-         -o-animation: fadein 0.25s; /* Opera < 12.1 */
-            animation: fadein 0.25s;
+	-webkit-animation: fadein 0.4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0.4s; /* Firefox < 16 */
+        -ms-animation: fadein 0.4s; /* Internet Explorer */
+         -o-animation: fadein 0.4s; /* Opera < 12.1 */
+            animation: fadein 0.4s;
 }
 
 @keyframes fadein {
@@ -78,7 +78,7 @@ body {
 #logo {
 	margin: 60px;
 	max-width: 500px;
-	filter: invert(100%)
+	filter: invert(100%);
 }
 
 #main_info {
@@ -260,11 +260,50 @@ a:hover {
 }
 
 #container {
-	max-width: 600px;
+	max-width: 750px;
 	min-width: 150px;
 	margin: 30px;
 	padding: 0;
 	display: inline-block;
+}
+
+#navbar {
+	position: fixed;
+	background-color: #4f4f4f;
+	color: #ffffff;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	height: 40px;
+	width: calc(100% - 20px);
+	z-index: 99;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbutton {
+	float: right;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	margin-right: 30px;
+}
+
+#currentlink {
+	color: rgb(232, 144, 5);
+	font-weight: bold;
+}
+
+#navlogo {
+	height: 100%;
+	max-height: 50px;
+	display: flex;
+	float: left;
+	filter: invert(100%);
+}
+
+#navbar, #navlogo {
+	transition: 0.5s;
 }
 
 .catblock {
@@ -314,6 +353,16 @@ a:hover {
 	height: auto;
 	max-width: 100%;
 	flex-shrink: 0;
+}
+
+#footer {
+	font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	color: #666;
+	font-size: 12px;
+	padding: 20px;
+	justify-content: center;
+	background: #ffffff;
+	display: flex;
 }
 
 @media only screen and (min-width: 501px) and (max-width: 960px) {

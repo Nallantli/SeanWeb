@@ -9,6 +9,11 @@
 
 <body>
 	<img id="scenery" src="images/WINCHESTER.png">
+	<div id="navbar">
+			<img id="navlogo" src="images/1455logo2.png">
+			<a class="navbutton" id="currentlink" href="index.html">AUTHORS</a>
+			<a class="navbutton" href="https://1455litarts.org/">HOME</a>
+	</div>
 	<div id="front_main">
 
 		<img id="logo" src="images/1455_keyslogo.svg">
@@ -34,8 +39,26 @@
 			</div>
 		</div>
 	</div>
+	<div id="footer">
+		© COPYRIGHT 2019. 1455 LITERARY ARTS.
+	</div>
 </body>
 <script src="scripts/info.js"></script>
 <script src="scripts/catalog.js"></script>
+<script>
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+			document.getElementById("navbar").style.height = "20px";
+			document.getElementById("navbar").style.paddingTop = "5px";
+			document.getElementById("navbar").style.paddingBottom = "5px";
+		  } else {
+			document.getElementById("navbar").style.height = "40px";
+			document.getElementById("navbar").style.paddingTop = "10px";
+			document.getElementById("navbar").style.paddingBottom = "10px";
+		  }
+		}
+		</script>
 
 </html>
