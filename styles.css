@@ -270,6 +270,9 @@ a:hover {
 		width: 100vw;
 		overflow: visible;
 	}
+	body {
+		font-size: 18px;
+	}
 
 	.catblock {
 		width: 100%;
