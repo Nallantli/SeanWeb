@@ -1,6 +1,5 @@
 const raw_AUTHORS = {
 	"MurphySean": {
-		"prefix": "Mr",
 		"title": "Executive Director",
 		"organization": "1455",
 		"first_name": "Sean",
@@ -18,7 +17,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"BenderKaren": {
-		"prefix": "Ms",
 		"first_name": "Karen",
 		"last_name": "Bender",
 		"website": "karenebender.com",
@@ -33,7 +31,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"KarapetkovaHolly": {
-		"prefix": "Dr",
 		"title": "Associate Professor",
 		"organization": "Marymount University",
 		"first_name": "Holly",
@@ -48,7 +45,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"HudgensDallas": {
-		"prefix": "Mr",
 		"title": "Publisher",
 		"organization": "Relegation Books",
 		"first_name": "Dallas",
@@ -62,7 +58,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"SiegelRobertAnthony": {
-		"prefix": "Mr",
 		"first_name": "Robert Anthony",
 		"last_name": "Siegel",
 		"website": "robertanthonysiegel.com",
@@ -77,7 +72,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"AymarEA": {
-		"prefix": "Mr",
 		"first_name": "E.A.",
 		"last_name": "Aymar",
 		"website": "eaymar.com",
@@ -93,7 +87,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"SwinsonDavid": {
-		"prefix": "Mr",
 		"first_name": "David",
 		"last_name": "Swinson",
 		"website": "davidaswinson.com",
@@ -109,7 +102,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"LangsdorfJulie": {
-		"prefix": "Ms",
 		"first_name": "Julie",
 		"last_name": "Langsdorf",
 		"website": "julielangsdorf.com",
@@ -122,7 +114,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"McCullochJeanne": {
-		"prefix": "Ms",
 		"first_name": "Jeanne",
 		"last_name": "McCulloch",
 		"twitter": "https://mobile.twitter.com/jeannemcculloch",
@@ -133,7 +124,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"AhrenJusten": {
-		"prefix": "Mr",
 		"first_name": "Justen",
 		"last_name": "Ahren",
 		"website": "justenahren.com",
@@ -146,7 +136,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"LinganJohn": {
-		"prefix": "Mr",
 		"first_name": "John",
 		"last_name": "Lingan",
 		"twitter": "https://mobile.twitter.com/johnlingan",
@@ -157,7 +146,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"BayardLouis": {
-		"prefix": "Mr",
 		"first_name": "Louis",
 		"last_name": "Bayard",
 		"website": "louisbayard.com",
@@ -176,7 +164,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"KapsidelisThomas": {
-		"prefix": "Mr",
 		"first_name": "Thomas",
 		"last_name": "Kapsidelis",
 		"facebook" : "https://www.facebook.com/tom.kapsidelis",
@@ -189,7 +176,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"KovacChristina": {
-		"prefix": "Ms",
 		"first_name": "Christina",
 		"last_name": "Kovac",
 		"website": "christinakovac.com",
@@ -202,7 +188,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"KimAngie": {
-		"prefix": "Ms",
 		"first_name": "Kim",
 		"last_name": "Angie",
 		"website": "christinakovac.com",
@@ -216,7 +201,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"HomesteadMelissa": {
-		"prefix": "Dr",
 		"first_name": "Melissa",
 		"last_name": "Homestead",
 		"organization" : "University of Nebraska-Lincoln",
@@ -228,7 +212,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"DavisMatthew": {
-		"prefix": "Mr",
 		"first_name": "Davis",
 		"last_name": "Matthew",
 		"organization" : "Alan Cheuse International Writers Center at George Mason University",
@@ -240,7 +223,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"SilvermanJacob": {
-		"prefix": "Mr",
 		"first_name": "Jacob",
 		"last_name": "Silverman",
 		"organization" : "Self-employed",
@@ -267,7 +249,6 @@ const raw_AUTHORS = {
 		]
 	},*/
 	"BettmannRobert": {
-		"prefix": "Mr",
 		"first_name": "Robert",
 		"last_name": "Bettmann",
 		"organization" : "Day Eight",
@@ -282,7 +263,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"PatrickBethanne": {
-		"prefix": "Ms",
 		"first_name": "Bethanne",
 		"last_name": "Patrick",
 		"email": "bethanne.patrick@gmail.com",
@@ -296,7 +276,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"KaldasPauline": {
-		"prefix": "Dr",
 		"first_name": "Pauline",
 		"last_name": "Kaldas",
 		"email": "pkaldas@hollins.edu",
@@ -312,7 +291,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"AndersonTJ": {
-		"prefix": "Dr",
 		"first_name": "T.J.",
 		"last_name": "Anderson",
 		"email": "tanderson@hollins.edu",
@@ -327,7 +305,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"WesleyZia": {
-		"prefix": "Ms",
 		"first_name": "Zia",
 		"last_name": "Wesley",
 		"email": "ziziw73@gmail.com",
@@ -342,7 +319,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"JaffeHarry": {
-		"prefix": "Mr",
 		"first_name": "Harry",
 		"last_name": "Jaffe",
 		"email": "harryjaffe@gmail.com",
@@ -355,7 +331,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"NajiAhmed": {
-		"prefix": "Mr",
 		"first_name": "Ahmed",
 		"last_name": "Naji",
 		"bio": "Ahmed Naji is an Egyptian novelist and journalist born in Mansoura in 1985. He is the author of three books, Rogers (2007), Seven Lessons Learned from Ahmed Makky (2009), and The Use of Life (2014), as well as numerous blogs and other articles. He was also a journalist for Akhbar al-Adab, a state-funded literary magazine, and frequently contributed to other newspapers and websites including Al-Modon and Al-Masry Al-Youm. Naji has been a vocal critic of official corruption under the rule of Egyptian President Abdel Fattah al-Sisi.<br><br>Egypt’s literary and political communities have expressed widespread support for Naji. Seven members of the committee that wrote the Egyptian Constitution published a statement in February 2016 condemning Naji’s sentencing as unconstitutional, arguing that the conviction contravenes Article 67 of the Constitution. Over 500 Egyptian writers and artists also signed a statement in February 2016 in solidarity with Naji, criticizing the government’s \"multi-armed attack on a number of writers and journalists because of their opinions\" and the \"terrible and terrifying path taken by the regime.\"",
@@ -364,7 +339,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"DeneviTimothy": {
-		"prefix": "Mr",
 		"first_name": "Timothy",
 		"last_name": "Denevi",
 		"website": "timdenevi.com",
@@ -378,7 +352,6 @@ const raw_AUTHORS = {
 		]
 	},
 	"FriedmanJane": {
-		"prefix": "Ms",
 		"first_name": "Jane",
 		"last_name": "Friedman",
 		"website": "janefriedman.com",

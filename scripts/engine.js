@@ -12,7 +12,7 @@ function init() {
 	author = AUTHORS[getParameterByName("id")];
 	document.getElementById("profile").src = "images/" + getParameterByName("id") + ".jpg";
 	name = author.first_name + " " + author.last_name;
-	document.getElementById("name").innerHTML = (author.prefix + " <b>" + author.first_name + " </b>" + author.last_name).toUpperCase();
+	document.getElementById("name").innerHTML = ("<b>" + author.first_name + " </b>" + author.last_name).toUpperCase();
 	if (author.title == undefined)
 		document.getElementById("titleorg").style.display = "none";
 	else
