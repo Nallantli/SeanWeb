@@ -259,7 +259,7 @@ a:hover {
 	flex-shrink: 0;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 660px) {
 	#front {
 		height: 50vh;
 		width: 100vw;
@@ -269,6 +269,36 @@ a:hover {
 		min-height: 50vh;
 		width: 100vw;
 		overflow: visible;
+	}
+
+	.catblock {
+		width: 100%;
+		justify-content: left;
+		justify-items: left;
+		border: none;
+		margin-bottom: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.catblock:hover {
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	}
+	.catblock:hover > img {
+		filter: blur(0px);
+		-webkit-filter: blur(0px);
+		transform: none;
+	}
+	
+	.catblock > div > h4 {
+		font-size: 18px !important;
+	}
+
+	.catblock > div{
+		display: flex;
+		position: relative;
+	}
+	.catblock > img {
+		width: 150px;
 	}
 
 }
