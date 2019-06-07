@@ -13,7 +13,11 @@
 		"books": [
 			"9780989880534",
 			"9780989880558",
-			"9780989880503"
+			"9780989880503",
+			{
+				"link": "https://seanmurphy.net/please-talk-about-me-when-im-gone/not-to-mention-a-nice-life/",
+				"img": "https://seanmurphy.net/wp-content/uploads/2015/04/NTMANL-BB.jpg"
+			}
 		]
 	},
 	"BenderKaren": {
@@ -35,13 +39,18 @@
 		"organization": "Marymount University",
 		"first_name": "Holly",
 		"last_name": "Karapetkova",
+		"website": "karapetkova.com",
 		"bio": "Holly Karapetkova's poetry, prose, and translations have appeared recently in The Southern Review, Prairie Schooner, The Nashville Review, and many other places. Her second book, Towline, won the Vern Rutsala Poetry Contest and was published by Cloudbank Books. She teaches at Marymount University in Arlington, VA.",
 		"email": "hkarapet@marymount.edu",
 		"facebook": "https://www.facebook.com/holly.karapetkova",
 		"linkedin": "https://www.linkedin.com/in/holly-karapetkova-432b6724/",
 		"twitter": "https://twitter.com/HollyKarapetkov",
 		"books": [
-			"9780931846953"
+			"9780931846953",
+			{
+				"link": "http://cloudbankbooks.com/towline/",
+				"img": "http://cloudbankbooks.com/wp-content/uploads/2017/02/TowlineCover.jpg"
+			}
 		]
 	},
 	"HudgensDallas": {
@@ -68,7 +77,11 @@
 		"twitter": "www.twitter.com/rasiegel1000",
 		"books": [
 			"9781640090378",
-			"9781596922853"
+			"9781596922853",
+			{
+				"link": "https://www.amazon.com/Money-World-Robert-Anthony-Siegel/dp/0679448322/ref=sr_1_3?ie=UTF8&qid=1519143005&sr=8-3&keywords=robert+anthony+siegel&dpID=7144CX3HS1L&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch",
+				"img": "https://images-na.ssl-images-amazon.com/images/I/7144CX3HS1L._SX315_BO1,204,203,200_.gif"
+			}
 		]
 	},
 	"AymarEA": {
@@ -282,12 +295,20 @@
 		"email": "tanderson@hollins.edu",
 		"organization": "Hollins University",
 		"title": "Professor of English and Creative Writing",
-		"website": "https://www.tjandersonpoet.com/",
+		"website": "tjandersonpoet.com",
 		"bio": "Born in Guthrie, Oklahoma, poet and musician T.J. Anderson III is the author of Devonte Travels the Sorry Route (Omnidawn Press, 2019), Cairo Workbook (Willow Books, 2014), River to Cross (The Backwaters Press, 2009), Notes to Make the Sound Come Right: Four Innovators of Jazz Poetry (University of Arkansas Press, 2004), Blood Octave (Flat Five Recordings, 2006), and the chapbook At Last Round Up (lift books, 1996). A former Fulbright Scholar at Cairo University, he lives with his family in Roanoke, Virginia, and teaches at Hollins University.",
 		"books": [
 			"9781632430670",
 			"9781935218050",
-			"9781557287694"
+			"9781557287694",
+			{
+				"link": "https://www.amazon.com/gp/product/9997735811/ref=dbs_a_def_rwt_bibl_vppi_i3",
+				"img": "https://images-na.ssl-images-amazon.com/images/I/41Ux3Jttt9L._SX315_BO1,204,203,200_.jpg"
+			},
+			{
+				"link" : "https://www.amazon.com/gp/product/0989735788/ref=dbs_a_def_rwt_bibl_vppi_i4",
+				"img" : "https://images-na.ssl-images-amazon.com/images/I/51gyyLsjFqL._SX331_BO1,204,203,200_.jpg"
+			}
 		]
 	},
 	"WesleyZia": {
@@ -356,6 +377,27 @@
 		"email": "cynthia@dischord.com",
 		"website": "cynthiaconnolly.com",
 		"bio": "Cynthia Connolly is a photographer, curator, letterpress printer and artist who lives in the Arlington, Virginia. She graduated from both the Corcoran College of Art and Design, and Auburn University’s Rural Studio, worked for Dischord Records and booked an avant-garde performance venue, d.c. space. In 1988 she published Banned in DC: Photos and Anecdotes From the DC Punk Underground (79–86) through her independent press Sun Dog Propaganda. Internationally shown and a prolific artist, her photographic work, postcards and books were exhibited in Beautiful Losers in the United States and Europe from 2004–2009 establishing herself as a pioneer in DIY culture.  Reviewed internationally, her photography is in many private collections, as well as the The J. Paul Getty Museum, The National Museum of Women in the Arts, Smithsonian Museum of American History and the Corcoran Gallery of Art.  The recipient of two National Endowment for the Arts grants for her projects, she has been curator for Arlington County, Virginia for over a decade and continues to search the world both as curator and artist to connect disparate places, people and things.",
-		"books": []
+		"books": [
+			{
+				"link": "https://cynthiaconnolly.com/books/bannedindc.html",
+				"img": "https://cynthiaconnolly.com/img/books/sdp01.jpg"
+			},
+			{
+				"link": "https://cynthiaconnolly.com/books/easttowest.html",
+				"img": "https://cynthiaconnolly.com/img/books/east2west_full.jpg"
+			},
+			{
+				"link": "https://cynthiaconnolly.com/books/lengthsandbreaths.html",
+				"img": "https://cynthiaconnolly.com/img/books/Lengths.jpg"
+			},
+			{
+				"link": "https://cynthiaconnolly.com/books/interrobang.html",
+				"img": "https://cynthiaconnolly.com/img/books/bang5_frontcoverw.jpg"
+			},
+			{
+				"link": "https://cynthiaconnolly.com/books/biglots.html",
+				"img": "https://cynthiaconnolly.com/img/books/big-lots.jpg"
+			}
+		]
 	}
 }

@@ -53,10 +53,14 @@ loadJSON('info.json', (AUTHORS) => {
 		var inner = "<h3>LITERATURE BY <b>" + author.last_name.toUpperCase() + "</b></h3>";
 
 		for (var i = 0; i < author.books.length; i++) {
-			var isbn = author.books[i];
-			var isbn1 = isbn.substr(isbn.length - 3);
-			var isbn2 = isbn.substr(isbn.length - 6).substr(0, 3);
-			inner += "<a class=\"book\" target=\"_blank\" href=\"https://www.winchesterbookgallery.com/book/" + isbn + "\"><img class=\"booklink\" src=\"https://images.booksense.com/images/" + isbn1 + "/" + isbn2 + "/" + isbn + ".jpg\"></a>";
+			if (typeof author.books[i] == 'string') {
+				var isbn = author.books[i];
+				var isbn1 = isbn.substr(isbn.length - 3);
+				var isbn2 = isbn.substr(isbn.length - 6).substr(0, 3);
+				inner += "<a class=\"book\" target=\"_blank\" href=\"https://www.winchesterbookgallery.com/book/" + isbn + "\"><img class=\"booklink\" src=\"https://images.booksense.com/images/" + isbn1 + "/" + isbn2 + "/" + isbn + ".jpg\"></a>";
+			} else {
+				inner += "<a class=\"book\" target=\"_blank\" href=\"" + author.books[i].link + "\"><img class=\"booklink\" src=\"" + author.books[i].img + "\"></a>";
+			}
 		}
 
 		document.getElementById("bookstore").innerHTML = inner;
