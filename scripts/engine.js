@@ -8,7 +8,7 @@ function getParameterByName(name, url) {
 	return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-function init() {
+loadJSON('info.json', (AUTHORS) => {
 	author = AUTHORS[getParameterByName("id")];
 	document.getElementById("profile").src = "images/" + getParameterByName("id") + ".jpg";
 	name = author.first_name + " " + author.last_name;
@@ -22,25 +22,32 @@ function init() {
 
 	if (author.email == undefined)
 		document.getElementById("email").style.display = "none";
-	document.getElementById("email").href = "mailto:" + author.email;
-	document.getElementById("email").innerHTML += author.email;
+	else {
+		document.getElementById("email").href = "mailto:" + author.email;
+		document.getElementById("email").innerHTML += author.email;
+	}
 
 	if (author.website == undefined)
 		document.getElementById("website").style.display = "none";
-	document.getElementById("website").href = "https://" + author.website;
-	document.getElementById("website").innerHTML += author.website;
+	else {
+		document.getElementById("website").href = "https://" + author.website;
+		document.getElementById("website").innerHTML += author.website;
+	}
 
 	if (author.facebook == undefined)
 		document.getElementById("facebook").style.display = "none";
-	document.getElementById("facebook").href = author.facebook;
+	else
+		document.getElementById("facebook").href = author.facebook;
 
 	if (author.linkedin == undefined)
 		document.getElementById("linkedin").style.display = "none";
-	document.getElementById("linkedin").href = author.linkedin;
+	else
+		document.getElementById("linkedin").href = author.linkedin;
 
 	if (author.twitter == undefined)
 		document.getElementById("twitter").style.display = "none";
-	document.getElementById("twitter").href = author.twitter;
+	else
+		document.getElementById("twitter").href = author.twitter;
 
 	if (author.books.length > 0) {
 		var inner = "<h3>LITERATURE BY <b>" + author.last_name.toUpperCase() + "</b></h3>";
@@ -57,6 +64,4 @@ function init() {
 		document.getElementById("bookstore").style.display = "none";
 	}
 	document.title = name;
-}
-
-init();
+});
