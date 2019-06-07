@@ -277,6 +277,7 @@
 	"KaldasPauline": {
 		"first_name": "Pauline",
 		"last_name": "Kaldas",
+		"website" : "paulinekaldas.com",
 		"email": "pkaldas@hollins.edu",
 		"organization": "Hollins University",
 		"title": "Professor of English and Creative Writing",
@@ -286,7 +287,11 @@
 			"9780815608547",
 			"9781933456256",
 			"9781557289124",
-			"9781557289247"
+			"9781557289247",
+			{
+				"link": "https://www.amazon.com/gp/product/1614571988/ref=dbs_a_def_rwt_bibl_vppi_i1",
+				"img": "http://www.paulinekaldas.com/uploads/1/2/4/0/124004039/editor/lbw-cover-for-postcard.jpg"
+			}
 		]
 	},
 	"AndersonTJ": {
